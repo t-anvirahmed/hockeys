@@ -34,6 +34,7 @@
     <style type="text/tailwindcss">
       @theme {
         --color-btn: #ff4240;
+        --color-primary-text: #13131899;
       }
     </style>
   </head>
@@ -194,13 +195,78 @@
           <h4 class="text-2xl lg:text-4xl font-extrabold">
             Professional Hockeys Club
           </h4>
-          <p class="text-sm lg:text-lg font-medium mt-4 lg:mt-6">
+          <p
+            class="text-sm lg:text-lg font-medium text-primary-text mt-4 lg:mt-6"
+          >
             Track every player stat, analyze team performance, compare metrics,
             and gain insights <br class="hidden lg:block" />
             to master the hockey game.
           </p>
         </div>
         <div class="divider"></div>
+        <!-- stats section stats -->
+        <div class="grid grid-cols-1 lg:grid-cols-4 lg:mt-12 space-x-8">
+          <!-- stats-1 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-red-500"
+              style="--value: 87; --size: 10rem; --thickness: 1rem"
+              aria-valuenow="87"
+              role="progressbar"
+            >
+              <h4 class="text-black text-3xl font-extrabold">87%</h4>
+            </div>
+            <h4 class="text-xl font-semibold lg:mt-6">Prayer Facility</h4>
+            <p class="text-primary-text mt-4">
+              Peaceful space for reflection and serenity
+            </p>
+          </div>
+          <!-- stats-2 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-green-500"
+              style="--value: 95; --size: 10rem; --thickness: 1rem"
+              aria-valuenow="95"
+              role="progressbar"
+            >
+              <h4 class="text-black text-3xl font-extrabold">95%</h4>
+            </div>
+            <h4 class="text-xl font-semibold lg:mt-6">Experienced Coach</h4>
+            <p class="text-primary-text mt-4">
+              Experienced coach guides every player
+            </p>
+          </div>
+          <!-- stats-3 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-yellow-500"
+              style="--value: 90; --size: 10rem; --thickness: 1rem"
+              aria-valuenow="90"
+              role="progressbar"
+            >
+              <h4 class="text-black text-3xl font-extrabold">90%</h4>
+            </div>
+            <h4 class="text-xl font-semibold lg:mt-6">Senior Player</h4>
+            <p class="text-primary-text mt-4">
+              Senior players mentor team growth
+            </p>
+          </div>
+          <!-- stats-4 -->
+          <div class="text-center">
+            <div
+              class="radial-progress text-blue-500"
+              style="--value: 80; --size: 10rem; --thickness: 1rem"
+              aria-valuenow="80"
+              role="progressbar"
+            >
+              <h4 class="text-black text-3xl font-extrabold">80%</h4>
+            </div>
+            <h4 class="text-xl font-semibold lg:mt-6">Training Ground</h4>
+            <p class="text-primary-text mt-4">
+              Training ground built for excellence
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer -->
